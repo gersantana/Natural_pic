@@ -1,0 +1,24 @@
+.nav_container {
+    min-height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:  2rem;
+    background-color: aqua;
+}
+
+.logo_container {
+    margin: 1rem;
+}
+
+.links_container {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+.links_container a {
+    text-decoration: none;
+}

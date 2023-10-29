@@ -1,15 +1,20 @@
 import { createContext } from "react";
+import PropTypes from "prop-types"
 
-const picContext = createContext()
+const PicContext = createContext()
 
-const picPorvider  = ({children}) => {
+const PicPorvider  = ({children}) => {
 
     const data = {}
 
     return (
-        <picContext.Provider value={data}>{children}</picContext.Provider>
+        <PicContext.Provider value={data}>{children}</PicContext.Provider>
     )
 }
 
-export default picContext
-export {picPorvider} 
+PicPorvider.propTypes = {
+    children: PropTypes.array.isRequired
+}
+
+export default PicContext
+export {PicPorvider} 
