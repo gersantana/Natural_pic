@@ -1,3 +1,8 @@
+.title_home_page {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(51 156 50);
+}
 .home_page_container {
     display: flex;
     justify-content: center;
@@ -7,7 +12,7 @@
 }
 @media (min-width: 1400px) {
     .home_page_container {
-        padding: 5rem 5rem;
+        padding: 0rem 5rem;
     }
 }
 .container_render {
@@ -21,6 +26,7 @@
     top: 2rem;
     right: 2rem;
     font-size: 2.3rem;
+    color: rgb(255, 255, 255);
 }
 
 .imagen_render {
@@ -29,9 +35,10 @@
 .descripcion_img {
     position: absolute;
     bottom: 2rem;
-    color: white ;
+    color: rgb(255, 255, 255) ;
     margin: 0;
     width: 100%;
-    padding: 0 0 0 1rem;
+    padding: 0 1rem 0 1rem;
+    /* backdrop-filter: blur(2rem); */
 }
 

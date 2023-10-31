@@ -5,7 +5,8 @@
     justify-content: space-around;
     align-items: center;
     gap:  2rem;
-    background-color: aqua;
+    background-color: rgb(51 156 50);
+    font-size: 1.8rem;
 }
 
 .logo_container {
@@ -15,10 +16,16 @@
 .links_container {
     display: flex;
     gap: 2rem;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .links_container a {
     text-decoration: none;
+    color:white;
+}
+
+.links_container a:hover {
+    text-decoration: underline;
 }

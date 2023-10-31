@@ -1,7 +1,10 @@
+import "./Favoritos.css"
 const Favoritos = () => {
 
     return(
-        <p>Soy la Pagina de favoritos</p>
+        <>
+        <h1 className="title_favoritos_page">Favoritos</h1>
+        </>
     )
 }
 
