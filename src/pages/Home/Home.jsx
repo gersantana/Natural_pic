@@ -1,8 +1,12 @@
+import HomeContain from "../../components/HomeContain/HomeContain"
 
 const Home = () => {
 
     return(
-        <p>soy la pagina de home</p>
+        <main className="">
+            <HomeContain/>
+        </main>
+       
     )
 }
 

@@ -1,13 +1,23 @@
+* {
+    box-sizing: border-box;
+}
 html {
     font-size: 62.5%;
+    min-height: 100vh;
+
 }
 body {
     margin: 0;
     font-size: 1.6rem;
-    box-sizing: border-box;
+
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+.main_container {
+    /* display: flex; */
+    /* justify-content: center; */
 }

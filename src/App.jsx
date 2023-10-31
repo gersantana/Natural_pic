@@ -10,10 +10,12 @@ function App() {
 		<div>
 			<PicPorvider>
 				<NavBar />
+				<main className="main_container">
 				<Routes>
 					<Route path="/" element={<Home />}></Route>
 					<Route path="/favoritos" element={<Favoritos />}></Route>
 				</Routes>
+				</main>
 			</PicPorvider>
 		</div>
 	);
