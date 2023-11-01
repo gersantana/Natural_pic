@@ -4,9 +4,9 @@ import "./NavBar.css"
 const NavBar = () => {
 	return (
 		<nav className="nav_container">
-			<div className="logo_container" >
-				<Link to="/">Logo</Link>
-			</div>
+			{/* <div className="logo_container" >
+				<Link to="/">Np</Link>
+			</div> */}
 
 			<ul className="links_container">
 				<li>

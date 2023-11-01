@@ -19,6 +19,16 @@
     width: 35rem;
     position: relative;
 }
+.container_render:hover {
+    cursor: pointer;
+    /* border: .1rem solid; */
+    transform: scale(1.01);
+    box-shadow: .2rem .2rem 1rem #868686;
+    transition: all .2s ease-in-out;
+    border-radius: 1rem;
+
+}
+
 .corazon_icon {
     display: flex;
     flex-direction: row-reverse;
@@ -31,6 +41,11 @@
 
 .imagen_render {
     width: 100%;
+}
+.imagen_render:hover {
+    transition: all .2s ease-in-out;
+     border-radius: 1rem;
+
 }
 .descripcion_img {
     position: absolute;
